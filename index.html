@@ -7,7 +7,6 @@
     <meta name="description" content="您的一站式 Narrator AI 学习中心。深入了解这款革命性的数据叙事工具，我们提供最详尽的教程、评测和使用技巧。">
     <script src="https://cdn.tailwindcss.com"></script>
     <style>
-        /* 增加一个平滑的背景渐变和一些小动画 */
         body {
             background-color: #f8fafc;
         }
@@ -44,7 +43,7 @@
         </div>
     </nav>
 
-    <!-- 模块一：主标题 -->
+    <!-- 主标题 -->
     <header class="text-center py-20 px-4 bg-white">
         <h1 class="text-4xl md:text-6xl font-extrabold mb-4 gradient-text">
             Narrator AI 完全指南
@@ -55,7 +54,7 @@
     </header>
 
     <main class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 py-16 space-y-24">
-        <!-- 模块二：“它是什么？” -->
+        <!-- “它是什么？” -->
         <section class="text-center">
             <h2 class="text-3xl font-bold mb-4">什么是 Narrator AI？</h2>
             <p class="text-lg text-gray-600 max-w-2xl mx-auto">
@@ -63,7 +62,7 @@
             </p>
         </section>
 
-        <!-- 模块三：“为谁服务？” -->
+        <!-- “为谁服务？” -->
         <section>
             <h2 class="text-3xl font-bold text-center mb-12">哪些人最需要 Narrator AI？</h2>
             <div class="grid md:grid-cols-3 gap-8">
@@ -82,35 +81,44 @@
             </div>
         </section>
 
-        <!-- 模块四：核心功能介绍 -->
+        <!-- 核心功能介绍 -->
         <section id="features">
             <h2 class="text-3xl font-bold text-center mb-12">探索 Narrator AI 的三大核心功能</h2>
-            <div class="space-y-12">
-                <div class="flex flex-col md:flex-row items-center gap-8">
-                    <div class="md:w-1/2 bg-gray-200 h-64 rounded-lg flex items-center justify-center">示意图：数据 -> 报告</div>
+            <div class="space-y-16">
+                <!-- 第一个功能：自动生成报告 -->
+                <div class="flex flex-col md:flex-row items-center gap-12">
                     <div class="md:w-1/2">
-                        <h3 class="text-2xl font-semibold mb-2">自动生成叙事报告</h3>
-                        <p class="text-gray-600">只需上传您的数据文件或连接数据库，AI将在几分钟内为您生成结构完整、逻辑清晰的分析报告。</p>
+                        <img src="把第一张图片的链接粘贴到这里" alt="Narrator AI 自动生成叙事报告示意图" class="rounded-lg shadow-2xl">
+                    </div>
+                    <div class="md:w-1/2">
+                        <h3 class="text-2xl font-semibold mb-3">1. 自动生成叙事报告</h3>
+                        <p class="text-gray-600">连接您的数据仓库，AI将在几分钟内为您生成结构完整、逻辑清晰的分析报告，并用自然语言解释数据背后的故事。</p>
                     </div>
                 </div>
-                <div class="flex flex-col md:flex-row-reverse items-center gap-8">
-                    <div class="md:w-1/2 bg-gray-200 h-64 rounded-lg flex items-center justify-center">示意图：多数据源整合</div>
+                <!-- 第二个功能：多数据源整合 -->
+                <div class="flex flex-col md:flex-row-reverse items-center gap-12">
                     <div class="md:w-1/2">
-                        <h3 class="text-2xl font-semibold mb-2">多数据源整合分析</h3>
-                        <p class="text-gray-600">无缝连接 Excel, Google Sheets, SQL 数据库等多种数据源，进行跨平台综合分析。</p>
+                        <img src="把第二张图片的链接粘贴到这里" alt="Narrator AI 多数据源整合分析示意图" class="rounded-lg shadow-2xl">
+                    </div>
+                    <div class="md:w-1/2">
+                        <h3 class="text-2xl font-semibold mb-3">2. 多数据源整合分析</h3>
+                        <p class="text-gray-600">无缝连接 Snowflake, Google BigQuery, Redshift 等多种主流数据仓库，基于统一的“活动模型”，进行跨平台综合分析。</p>
                     </div>
                 </div>
-                <div class="flex flex-col md:flex-row items-center gap-8">
-                    <div class="md:w-1/2 bg-gray-200 h-64 rounded-lg flex items-center justify-center">示意图：带图表的报告</div>
+                <!-- 第三个功能：可视化图表 -->
+                <div class="flex flex-col md:flex-row items-center gap-12">
                     <div class="md:w-1/2">
-                        <h3 class="text-2xl font-semibold mb-2">可视化图表嵌入</h3>
-                        <p class="text-gray-600">AI自动为您选择最合适的图表（折线图、柱状图、饼图等）来展示数据，让报告更具说服力。</p>
+                        <img src="把第三张图片的链接粘贴到这里" alt="Narrator AI 可视化图表嵌入示意图" class="rounded-lg shadow-2xl">
+                    </div>
+                    <div class="md:w-1/2">
+                        <h3 class="text-2xl font-semibold mb-3">3. 智能可视化图表</h3>
+                        <p class="text-gray-600">AI会根据您的分析目的，自动选择最合适的图表（折线图、柱状图、饼图等）来展示数据，让您的报告更具说服力。</p>
                     </div>
                 </div>
             </div>
         </section>
         
-        <!-- 模块五：快速上手指南 -->
+        <!-- 快速上手指南 -->
         <section id="quick-start" class="bg-white p-12 rounded-2xl shadow-xl">
             <h2 class="text-3xl font-bold text-center mb-8">三步开启你的 Narrator AI 之旅</h2>
             <div class="flex flex-col md:flex-row justify-between items-center text-center space-y-8 md:space-y-0">
@@ -130,11 +138,11 @@
                 </div>
             </div>
             <div class="text-center mt-12">
-                <a href="#" class="bg-blue-600 text-white font-bold py-3 px-8 rounded-lg hover:bg-blue-700 transition-transform transform hover:scale-105 inline-block">访问 Narrator AI 官网</a>
+                <a href="https://www.narrator.ai/" target="_blank" class="bg-blue-600 text-white font-bold py-3 px-8 rounded-lg hover:bg-blue-700 transition-transform transform hover:scale-105 inline-block">访问 Narrator AI 官网</a>
             </div>
         </section>
 
-        <!-- 模块六：FAQ -->
+        <!-- FAQ -->
         <section id="faq">
             <h2 class="text-3xl font-bold text-center mb-12">常见问题解答</h2>
             <div class="max-w-2xl mx-auto space-y-4">
