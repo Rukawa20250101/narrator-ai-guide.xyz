@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Narrator AI 完全指南：从入门到精通</title>
+    <meta name="description" content="您的一站式 Narrator AI 学习中心。深入了解这款革命性的数据叙事工具，我们提供最详尽的教程、评测和使用技巧。">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        /* 增加一个平滑的背景渐变和一些小动画 */
+        body {
+            background-color: #f8fafc;
+        }
+        .gradient-text {
+            background: linear-gradient(to right, #3b82f6, #8b5cf6);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+        .card-hover {
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+        .card-hover:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05);
+        }
+    </style>
+</head>
+<body class="text-gray-800">
+
+    <!-- 导航栏 -->
+    <nav class="bg-white/80 backdrop-blur-lg sticky top-0 z-50 border-b border-gray-200">
+        <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex justify-between items-center h-16">
+                <div class="flex items-center space-x-2">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="text-blue-500"><path d="M12 2L2 7l10 5 10-5-10-5z"></path><path d="M2 17l10 5 10-5"></path><path d="M2 12l10 5 10-5"></path></svg>
+                    <span class="text-xl font-bold">Narrator AI 指南</span>
+                </div>
+                <div class="hidden md:flex items-center space-x-8">
+                    <a href="#features" class="text-gray-500 hover:text-blue-600 transition-colors">核心功能</a>
+                    <a href="#quick-start" class="text-gray-500 hover:text-blue-600 transition-colors">快速上手</a>
+                    <a href="#faq" class="text-gray-500 hover:text-blue-600 transition-colors">常见问题</a>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- 模块一：主标题 -->
+    <header class="text-center py-20 px-4 bg-white">
+        <h1 class="text-4xl md:text-6xl font-extrabold mb-4 gradient-text">
+            Narrator AI 完全指南
+        </h1>
+        <p class="text-lg text-gray-600 max-w-3xl mx-auto">
+            您的一站式 Narrator AI 学习中心。深入了解这款革命性的数据叙事工具，我们提供最详尽的教程、评测和使用技巧。
+        </p>
+    </header>
+
+    <main class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 py-16 space-y-24">
+        <!-- 模块二：“它是什么？” -->
+        <section class="text-center">
+            <h2 class="text-3xl font-bold mb-4">什么是 Narrator AI？</h2>
+            <p class="text-lg text-gray-600 max-w-2xl mx-auto">
+                简单说，Narrator AI 就是一个能自动把枯燥的数据表格，变成一个引人入胜的故事或报告的AI工具。您给它数据，它给您洞察，让每个人都能轻松看懂数据背后的意义。
+            </p>
+        </section>
+
+        <!-- 模块三：“为谁服务？” -->
+        <section>
+            <h2 class="text-3xl font-bold text-center mb-12">哪些人最需要 Narrator AI？</h2>
+            <div class="grid md:grid-cols-3 gap-8">
+                <div class="bg-white p-8 rounded-xl shadow-lg card-hover text-center">
+                    <h3 class="text-xl font-semibold mb-2">数据分析师</h3>
+                    <p class="text-gray-500">从繁琐的报告撰写中解放，专注于更有价值的数据洞察。</p>
+                </div>
+                <div class="bg-white p-8 rounded-xl shadow-lg card-hover text-center">
+                    <h3 class="text-xl font-semibold mb-2">市场营销经理</h3>
+                    <p class="text-gray-500">快速生成有说服力的营销战报，清晰展示活动效果。</p>
+                </div>
+                <div class="bg-white p-8 rounded-xl shadow-lg card-hover text-center">
+                    <h3 class="text-xl font-semibold mb-2">创业公司创始人</h3>
+                    <p class="text-gray-500">轻松向投资人或团队展示业务增长故事，驱动决策。</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- 模块四：核心功能介绍 -->
+        <section id="features">
+            <h2 class="text-3xl font-bold text-center mb-12">探索 Narrator AI 的三大核心功能</h2>
+            <div class="space-y-12">
+                <div class="flex flex-col md:flex-row items-center gap-8">
+                    <div class="md:w-1/2 bg-gray-200 h-64 rounded-lg flex items-center justify-center">示意图：数据 -> 报告</div>
+                    <div class="md:w-1/2">
+                        <h3 class="text-2xl font-semibold mb-2">自动生成叙事报告</h3>
+                        <p class="text-gray-600">只需上传您的数据文件或连接数据库，AI将在几分钟内为您生成结构完整、逻辑清晰的分析报告。</p>
+                    </div>
+                </div>
+                <div class="flex flex-col md:flex-row-reverse items-center gap-8">
+                    <div class="md:w-1/2 bg-gray-200 h-64 rounded-lg flex items-center justify-center">示意图：多数据源整合</div>
+                    <div class="md:w-1/2">
+                        <h3 class="text-2xl font-semibold mb-2">多数据源整合分析</h3>
+                        <p class="text-gray-600">无缝连接 Excel, Google Sheets, SQL 数据库等多种数据源，进行跨平台综合分析。</p>
+                    </div>
+                </div>
+                <div class="flex flex-col md:flex-row items-center gap-8">
+                    <div class="md:w-1/2 bg-gray-200 h-64 rounded-lg flex items-center justify-center">示意图：带图表的报告</div>
+                    <div class="md:w-1/2">
+                        <h3 class="text-2xl font-semibold mb-2">可视化图表嵌入</h3>
+                        <p class="text-gray-600">AI自动为您选择最合适的图表（折线图、柱状图、饼图等）来展示数据，让报告更具说服力。</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+        <!-- 模块五：快速上手指南 -->
+        <section id="quick-start" class="bg-white p-12 rounded-2xl shadow-xl">
+            <h2 class="text-3xl font-bold text-center mb-8">三步开启你的 Narrator AI 之旅</h2>
+            <div class="flex flex-col md:flex-row justify-between items-center text-center space-y-8 md:space-y-0">
+                <div class="flex-1">
+                    <div class="bg-blue-500 text-white w-12 h-12 rounded-full flex items-center justify-center mx-auto mb-4 font-bold text-xl">1</div>
+                    <h4 class="font-semibold">访问官网并注册</h4>
+                </div>
+                <div class="h-1 w-full md:w-1/4 bg-gray-200"></div>
+                <div class="flex-1">
+                    <div class="bg-blue-500 text-white w-12 h-12 rounded-full flex items-center justify-center mx-auto mb-4 font-bold text-xl">2</div>
+                    <h4 class="font-semibold">连接你的数据源</h4>
+                </div>
+                <div class="h-1 w-full md:w-1/4 bg-gray-200"></div>
+                <div class="flex-1">
+                    <div class="bg-blue-500 text-white w-12 h-12 rounded-full flex items-center justify-center mx-auto mb-4 font-bold text-xl">3</div>
+                    <h4 class="font-semibold">生成首份报告</h4>
+                </div>
+            </div>
+            <div class="text-center mt-12">
+                <a href="#" class="bg-blue-600 text-white font-bold py-3 px-8 rounded-lg hover:bg-blue-700 transition-transform transform hover:scale-105 inline-block">访问 Narrator AI 官网</a>
+            </div>
+        </section>
+
+        <!-- 模块六：FAQ -->
+        <section id="faq">
+            <h2 class="text-3xl font-bold text-center mb-12">常见问题解答</h2>
+            <div class="max-w-2xl mx-auto space-y-4">
+                <div class="bg-white p-4 rounded-lg shadow">
+                    <h4 class="font-semibold">Narrator AI 是免费的吗？</h4>
+                    <p class="text-gray-600 mt-2">它提供免费试用套餐，包含基础功能。更高级的功能需要订阅付费套餐。</p>
+                </div>
+                <div class="bg-white p-4 rounded-lg shadow">
+                    <h4 class="font-semibold">它支持中文数据吗？</h4>
+                    <p class="text-gray-600 mt-2">目前官方主要支持英文，但对结构化的中文数据也有一定的处理能力。我们建议先用免费版测试您的数据。</p>
+                </div>
+                <div class="bg-white p-4 rounded-lg shadow">
+                    <h4 class="font-semibold">我的数据安全吗？</h4>
+                    <p class="text-gray-600 mt-2">Narrator AI 官方表示采用企业级安全措施保护用户数据，并且不会使用您的数据来训练公共模型。</p>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- 页脚 -->
+    <footer class="bg-gray-800 text-white mt-24 py-8">
+        <div class="max-w-6xl mx-auto px-4 text-center">
+            <p>© 2024 Narrator AI 指南. All rights reserved.</p>
+            <p class="text-sm text-gray-400 mt-2">本站是第三方粉丝和教程网站，与 Narrator AI 官方无关。</p>
+        </div>
+    </footer>
+
+</body>
+</html>
